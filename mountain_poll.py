@@ -8,7 +8,7 @@ while polling_active:
 	
 	responses[name] = response
 	
-	repeat = input('is there anyone who want to express himself? yes/no')
+	repeat = input('is there anyone who want to express himself? yes/no ')
 	if repeat == 'no':
 		polling_active = False
 		
